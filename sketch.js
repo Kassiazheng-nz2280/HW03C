@@ -3,7 +3,7 @@ function setup() {
 }
 
 function draw() {
-  randomSeed(100);
+  randomSeed(10);
   for (let counter = 0; counter < 1052; counter += 1) {
 
     let x1 = random(0, windowWidth);
@@ -20,8 +20,6 @@ function draw() {
     strokeWeight(1);
     ellipse(x1, y1, 10);
     ellipse(x0, y0, 10);
-
-    
 
     
   }
